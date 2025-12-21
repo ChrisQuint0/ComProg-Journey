@@ -1,0 +1,16 @@
+Codeforces Day 2
+
+I've finally solved my first 4 problems in Codeforces. Boy, I've always wanted to get started with either Codeforces or Hackerrank but don't have the time for it because of academics. Academics always gets in the way of everything, 'cause after all it's my priority.
+
+I have solved these problems:
+
+Watermelon
+Way Too Long Words
+Team
+Beautiful Matrix
+
+I got a compilation error in watermelon, I selected GNU C11 instead of C++23 (GCC 14-64, msys2) that's why it doesn't recognize #include <bits/stdc++.h>. I also got a wrong answer in Way Too Long Words, The problem said that if the word has more than 10 letters it should be abbreviated, I initially set the parameter to < 10 instead of <= 10. At the end, all of the 4 problems got accepted.
+
+It took me 30+ minutes to solve Beautiful Matrix, it's a good logic exercise. At first I was trying to plot how many moves it would take for each index of the 5x5 matrix, it turns out I just have to subtract the x and y coodinates of where the one is and subtract them with 2 convert both of them to their absolute value and add them. Took me too long to figure it out. But hey, I've solved it without AI or google. Off to a great start.
+
+Arrays are both a fascinating thing and a headache, especially if it's 2D. I'm sure we're gonna meet again in much harder problems in the future.

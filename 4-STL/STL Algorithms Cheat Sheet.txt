@@ -1,0 +1,26 @@
+//STL Algorithms Cheat Sheet
+// SORTING
+sort(v.begin(), v.end());              // Ascending
+sort(v.begin(), v.end(), greater<int>()); // Descending
+sort(v.begin(), v.end(), customFunction); // Custom
+
+// MIN/MAX
+*min_element(v.begin(), v.end())       // Min value
+*max_element(v.begin(), v.end())       // Max value
+
+// SUM
+accumulate(v.begin(), v.end(), 0LL)    // Sum (use 0LL for long long)
+
+// REVERSE
+reverse(v.begin(), v.end())            // Reverse array/vector
+
+// COUNT
+count(v.begin(), v.end(), value)       // Count occurrences
+
+// FIND
+find(v.begin(), v.end(), value)        // Find element
+
+// UNIQUE (removes consecutive duplicates)
+sort(v.begin(), v.end());
+auto last = unique(v.begin(), v.end());
+v.erase(last, v.end());

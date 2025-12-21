@@ -1,0 +1,47 @@
+1. int has a certain range that has a limit, long long has a wider range than int.
+2. Create a vector of size N then use a for loop until i < N and assign each i to v[i];
+3. For faster input and output.
+4. The first element can be accessed by specifying the first index of the vector which is 0 (v[0]). For the last element you can do it by accessing the index v.size() - 1 (v[v.size - 1]);
+5. O(n)
+6. If the problem asks for minimum or maximum of a certain constraints.
+7. lower_bound() returns the first element that is greater than or equal than the target. upper_bound() returns the first element that is greater than the target.
+8. The two pointers technique involves two pointers in an array, usually left and right. The pointers move based on certain conditions.
+9. A sliding window should be used if we are aiming to get a sum of a subarray with a size k.
+10. It means that a binary search should be used to determine what is the answer. It usually involves incorporating a binary search algorithm and customizing it depending on what the problem asks.
+11. Either do a v[i] + v[i + 1] and compare the result to the target if they are equal or use a sliding window with a size of 2 and then compare each time.
+12. To remove duplicates in O(N). The built-in library should be used. Use the unique() function (unique(v.end(), v.begin)). And erase in the array v.erase();
+13. Use a sliding window to determine the maximum length of the sum of the subarray less than or equal to k.
+14. Iterate throughout the array and compare each iteration if arr[i] + arr[j] < K.
+15. Use a fixed size sliding window, take note of the sum each window slide  and compare it to the max, change the max if the current sum is greater than the max.
+
+COMFORT LEVEL (Rate 1-5, where 5 = very comfortable)
+
+Basic Syntax:
+[5] Input/Output
+[5] Loops and conditions
+[4] Arrays
+[4] Vectors
+
+STL & Algorithms:
+[4] Sorting
+[3] STL functions (max_element, etc.)
+[5] Pairs
+[3] Custom comparators
+
+Advanced Techniques:
+[2] Binary Search
+[3] Two Pointers
+[2] Sliding Window
+[2] Binary Search on Answer
+
+Problem Solving:
+[4] Understanding problem statements
+[3] Identifying which technique to use
+[4] Implementing solution
+[4] Debugging
+[3] Speed (solving within time limit)
+
+TOPICS TO REVIEW:
+1. _______________
+2. _______________
+3. _______________
